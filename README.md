@@ -10,7 +10,7 @@ $ sudo apt-get install apache2 -y
 ```
 $ sudo /etc/init.d/apache2 status
 ```
-4. 🧱 Entrar no diretório
+4. 🧩 Entrar no diretório
 ```
 $ cd /var/www/
 ```
@@ -22,7 +22,7 @@ Entrar nesse novo diretório criado
 ```
 $ cd ufrn/public_html
 ```
-5. Criar um html simples nesse diretório e criar as tags padrões
+5. ✍ Criar um html simples nesse diretório e criar as tags padrões
 ```
 $ sudo nano index.html
 ```
@@ -39,15 +39,15 @@ Editar o arquivo colocar as tags padrão
 ```
 Salvar
 
-6. Criar o arquivo de configuração desse site
+6. ✍ Criar o arquivo de configuração desse site
 ```
 $ cd /etc/apache2/sites-available/
 ```
-7. Fazer uma cópia do padrão
+7. 🖨 Fazer uma cópia do padrão
 ```
 $ sudo cp 000-defaut.conf ufrn.conf
 ```
-8. Editar o arquivo
+8. ⚒ Editar o arquivo
 ```
 $ sudo nano ufrn.conf
 ```
