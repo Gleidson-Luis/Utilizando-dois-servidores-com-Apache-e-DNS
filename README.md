@@ -100,15 +100,20 @@ Salva e reinicia
 ```
 $ sudo /etc/init.d/named restart
 ```
+
 20. Editar o arquivo "db.reverso10"
 ```
 $ sudo nano db.reverso10
 ```
+
 21. Adicionar uma nova linha
 ```
 11    IN    PTR    ufrn.com.
 ```
 Salvar e reiniciar
+
 22. Desligar a VM1 e colocá-la em uma "Rede Interna" nas configurações do Virtual Box
+
 23. Com as VMs ligadas, dar um ping em cada ip para verificar se as máquinas estão respondendo. Estando tudo ok, abrir o navegador e verificar se os sites estão abrindo nas duas máquinas VMs.
+
 24. Estando tudo ok, a tarefa está concluída!
